@@ -1,0 +1,77 @@
+@import url("https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazRUYW9IUVk0LWM3ZTZUbVpRZU9DSkJMS2M5UXxBQ3Jtc0tueFRjWUlTV0dXelRpSXZSWDdTOVV1ZE5XXzB0TXNYYnRvbE5ySlJHbVJzcnN4M1k4QjBiUHBkbkNLQ3B4SzczY0NKNlNuY1g0NVItVU92bTdMWW5hREpUSnJEQk1wMlpHV3RGRkVVNmJaVDZuaE5FZw&q=https%3A%2F%2Ffonts.google.com%2Fspecimen%2FOpen%2BSans&v=dt1KJCz_N40");
+
+@font-face {
+    font-family: "bebas";
+    src: url(fonts/Bebas-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+*
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header-style::before,
+.header-style::after {
+    content: "";
+    display: table;
+}
+
+.header-style::after {
+    clear: both;
+}
+
+.header-style {
+    zoom: 1;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #f6f6f6;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.main,
+.container > header {
+    width: 90%;
+    max-width: 1060px; 
+    margin: 0 auto;
+    position: relative;
+    padding: 0 30px 50px 30px;
+}
+
+.container > header {
+    padding: 30px 30px 40px 30px;
+}
+
+.container > header h1 {
+    font-size: 34px;
+    line-height: 38px; 
+    margin: 0;
+    font-weight:  700;
+    color: #333;
+    float: left;
+}
