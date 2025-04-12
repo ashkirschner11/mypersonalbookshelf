@@ -5,8 +5,8 @@
 
 .bk-list li { 
     position: relative; 
-    width: calc(33.333% - 50px);
-    float: left; 
+    width: calc(33.333% - 60px);
+    float: left;
     z-index: 1;
     margin: 0px 50px 40px 0; 
     -webkit-perspective: 2100px;
@@ -26,7 +26,7 @@
     padding: 25px 0 10px;
     margin-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .bk-info h3 span:first-child{
@@ -332,9 +332,8 @@
 
 .book-1 .bk-cover h2 span:first-child,
 .book-1 .bk-left h2 span:first-child {
-    text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     padding-right: 20px;
 }
 
@@ -355,7 +354,6 @@
     color: #fff;
     font-size: 15px;
     line-height: 40px;
-    padding-right: 10px;
     text-align: center;
 }
 
@@ -385,20 +383,20 @@
 }
 
 .book-2 .bk-cover h2 {
-    font-size: 40px;
-    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
     padding: 30px;
-    margin-top: 25px;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.5);
     color: #fff;
-    text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
 }
 
 .book-2 .bk-cover h2 span:first-child,
 .book-2 .bk-left h2 span:first-child {
-    text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     padding-right: 20px;
 }
 
@@ -419,7 +417,6 @@
     color: #fff;
     font-size: 15px;
     line-height: 40px;
-    padding-right: 10px;
     text-align: center;
 }
 
@@ -461,9 +458,8 @@
 
 .book-3 .bk-cover h2 span:first-child,
 .book-3 .bk-left h2 span:first-child {
-    text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     padding-right: 20px;
 }
 
@@ -484,7 +480,6 @@
     color: #fff;
     font-size: 15px;
     line-height: 40px;
-    padding-right: 10px;
     text-align: center;
 }
 
@@ -525,9 +520,8 @@
 
 .book-4 .bk-cover h2 span:first-child,
 .book-4 .bk-left h2 span:first-child {
-    text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     padding-right: 20px;
 }
 
@@ -548,7 +542,6 @@
     color: #fff;
     font-size: 15px;
     line-height: 40px;
-    padding-right: 10px;
     text-align: center;
 }
 
@@ -590,9 +583,8 @@
 
 .book-5 .bk-cover h2 span:first-child,
 .book-5 .bk-left h2 span:first-child {
-    text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     padding-right: 20px;
 }
 
@@ -613,7 +605,6 @@
     color: #fff;
     font-size: 15px;
     line-height: 40px;
-    padding-right: 10px;
     text-align: center;
 }
 
@@ -654,7 +645,6 @@
 
 .book-6 .bk-cover h2 span:first-child,
 .book-6 .bk-left h2 span:first-child {
-    text-transform: uppercase;
     font-weight: 400;
     font-size: 20px;
     padding-right: 20px;
@@ -677,11 +667,196 @@
     color: #fff;
     font-size: 15px;
     line-height: 40px;
-    padding-right: 10px;
     text-align: center;
 }
 
 .book-6 .bk-back p {
+    color: #fff;
+    font-size: 13px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* BOOK 7 */
+
+.book-7 .bk-front > div,
+.book-7 .bk-back,
+.book-7 .bk-left,
+.book-7 .bk-front::after {
+    background-color: #D53138;
+}
+
+.book-7 .bk-cover {
+    background-image: url(../images/abbywam.jpg);
+    background-repeat: no-repeat;
+    background-position:  90% 0%;
+    background-size: cover;
+}
+
+.book-7 .bk-cover h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.book-7 .bk-cover h2 span:first-child,
+.book-7 .bk-left h2 span:first-child {
+    font-weight: 400;
+    font-size: 10px;
+    padding-right: 20px;
+}
+
+.book-7 .bk-cover h2 span:first-child {
+    display: block;
+}
+
+.book-7 .bk-cover h2 span:last-child,
+.book-7 .bk-left h2 span:last-child {
+    font-family: "Big Caslon", "Book Antiqua", Georgia, serif;
+}
+
+.book-7 .bk-content p {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.book-7 .bk-left h2 {
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.book-7 .bk-back p {
+    color: #fff;
+    font-size: 13px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* BOOK 8 */
+
+.book-8 .bk-front > div,
+.book-8 .bk-back,
+.book-8 .bk-left,
+.book-8 .bk-front::after {
+    background-color: #7B876D;
+}
+
+.book-8 .bk-cover {
+    background-image: url(../images/view_village.jpg);
+    background-repeat: no-repeat;
+    background-position:  90% 0%;
+    background-size: cover;
+}
+
+.book-8 .bk-cover h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.book-8 .bk-cover h2 span:first-child,
+.book-8 .bk-left h2 span:first-child {
+    font-weight: 400;
+    font-size: 10px;
+    padding-right: 20px;
+}
+
+.book-8 .bk-cover h2 span:first-child {
+    display: block;
+}
+
+.book-8 .bk-cover h2 span:last-child,
+.book-8 .bk-left h2 span:last-child {
+    font-family: "Big Caslon", "Book Antiqua", Georgia, serif;
+}
+
+.book-8 .bk-content p {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.book-8 .bk-left h2 {
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.book-8 .bk-back p {
+    color: #fff;
+    font-size: 13px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* BOOK 9 */
+
+.book-9 .bk-front > div,
+.book-9 .bk-back,
+.book-9 .bk-left,
+.book-9 .bk-front::after {
+    background-color: #85B0C1;
+}
+
+.book-9 .bk-cover {
+    background-image: url(../images/naphouse.jpeg);
+    background-repeat: no-repeat;
+    background-position:  90% 0%;
+    background-size: cover;
+}
+
+.book-9 .bk-cover h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.book-9 .bk-cover h2 span:first-child,
+.book-9 .bk-left h2 span:first-child {
+    font-weight: 400;
+    font-size: 10px;
+    padding-right: 20px;
+}
+
+.book-9 .bk-cover h2 span:first-child {
+    display: block;
+}
+
+.book-9 .bk-cover h2 span:last-child,
+.book-9 .bk-left h2 span:last-child {
+    font-family: "Big Caslon", "Book Antiqua", Georgia, serif;
+}
+
+.book-9 .bk-content p {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.book-9 .bk-left h2 {
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.book-9 .bk-back p {
     color: #fff;
     font-size: 13px;
     padding: 40px;
